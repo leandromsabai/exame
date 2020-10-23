@@ -5,7 +5,7 @@ import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 // Components
 import Counts from './Counts';
 
-// Pages
+
 import NewsDetailPage from './../pages/NewsDetailPage';
 
 const PostItem = ({item, navigator}) => {

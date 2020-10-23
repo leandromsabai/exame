@@ -2,7 +2,7 @@ import React from 'react';
 
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-// External Libraries
+
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const Counts = ({item}) =>

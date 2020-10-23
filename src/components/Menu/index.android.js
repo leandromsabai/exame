@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { DrawerLayoutAndroid, TouchableNativeFeedback, View } from 'react-native';
 
-// Components
+
 import ListDrawerLayout from './ListDrawerLayout';
 import HeaderDrawerLayout from './HeaderDrawerLayout';
 

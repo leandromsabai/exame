@@ -9,7 +9,7 @@ import Ionicon from 'react-native-vector-icons/Ionicons';
 // Pages
 import NewsPage from './NewsPage';
 
-// Components
+
 import Menu from './../components/Menu';
 
 const InitPage = ({navigator}) => {

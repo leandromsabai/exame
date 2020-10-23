@@ -18,7 +18,7 @@ export default class Api {
       for (var i in json) {
         count = count > 3 ? 0 : count;
         json[i]['imageUrl'] = images[count];
-        json[i]['speaker'] = 'John Machahuay';
+        json[i]['speaker'] = 'Leandro Sabai';
         json[i]['comments'] = 230;
         json[i]['likes'] = 20;
         count++;

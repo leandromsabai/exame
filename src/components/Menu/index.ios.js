@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { TabBarIOS } from 'react-native';
 
-// Components
+
 import MenuItem from './MenuItem';
 
 class Menu extends Component {

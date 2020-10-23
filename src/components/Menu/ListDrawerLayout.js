@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Dimensions, ListView, StyleSheet } from 'react-native';
 
-// Components
+
 import MenuItem from './MenuItem';
 
 const ListDrawerLayout = (props) => {
