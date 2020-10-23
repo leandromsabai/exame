@@ -27,7 +27,7 @@ const PostItem = ({item, navigator}) => {
       <View style={styles.referenceContainer}>
         <Counts item={item} />
         <View style={styles.speakerContainer}>
-          <Text style={styles.speakerText}>By { item.speaker }</Text>
+          <Text style={styles.speakerText}>Por { item.speaker }</Text>
         </View>
       </View>
     </TouchableOpacity>

@@ -14,7 +14,7 @@ const Counts = ({item}) =>
       <Text style={styles.countText}>{ item.comments }</Text>
     </View>
     <TouchableOpacity style={styles.horizontal}
-                      onPress={ () => alert('I like it!') }>
+                      onPress={ () => alert('Curti!') }>
       <View style={styles.iconCountContainer}>
         <Icon name={ item.liked ? 'favorite-border' : 'favorite' } size={14} />
       </View>

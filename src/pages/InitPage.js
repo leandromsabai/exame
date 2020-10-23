@@ -35,8 +35,8 @@ const InitPage = ({navigator}) => {
         },
         {
           id: itemId++,
-          title: 'News',
-          element: <NewsPage navigator={navigator} title='News' />,
+          title: 'Novos',
+          element: <NewsPage navigator={navigator} title='Novos' />,
           androidIcon: <Icon name="access-time" size={androidIconSize} />,
           itemComponent: Ionicon.TabBarItem,
           iconName: 'ios-time-outline',
@@ -46,8 +46,8 @@ const InitPage = ({navigator}) => {
         },
         {
           id: itemId++,
-          title: 'Favorite',
-          element: <NewsPage navigator={navigator} title='Favorite' />,
+          title: 'Favorito',
+          element: <NewsPage navigator={navigator} title='Favorito' />,
           androidIcon: <Icon name="favorite" size={androidIconSize} />,
           itemComponent: Ionicon.TabBarItem,
           iconName: 'ios-heart-outline',

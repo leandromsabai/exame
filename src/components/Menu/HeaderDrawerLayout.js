@@ -4,8 +4,8 @@ import { Dimensions, StyleSheet, Text, View } from 'react-native';
 
 const HeaderDrawerLayout = (props) =>
 <View style={styles.headerContainer}>
-  <Text style={styles.headerText}>EngineUs</Text>
-  <Text style={styles.versionText}>Versión 1.0</Text>
+  <Text style={styles.headerText}></Text>
+  <Text style={styles.versionText}>Versão 1.0</Text>
 </View>
 
 const styles = StyleSheet.create({

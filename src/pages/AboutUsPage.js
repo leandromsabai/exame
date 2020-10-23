@@ -17,9 +17,9 @@ const AboutUsPage = ({navigator}) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.p}>Made with ❤️ by EngineUs Team.</Text>
+      <Text style={styles.p}></Text>
       <NavBar
-        title="About Us"
+        title="Sobre nós"
         leftText={Platform.OS === 'ios' ? <Ionicon name='ios-arrow-back' size={32} color={'#eee'} /> : <Ionicon name='md-arrow-back' size={24} color={'#eee'} />}
         onLeftPress={ () => {
           _navigator.pop()

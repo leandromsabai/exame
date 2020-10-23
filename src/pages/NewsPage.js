@@ -49,10 +49,10 @@ class NewsPage extends Component {
     if (this.props.navigator.getCurrentRoutes().length <= 1) {
       Alert.alert(
         'Logout',
-        'Would you like to logout?',
+        'Gostaria de sair?',
         [
-          {text: 'NO', onPress: () => console.log('Cancel Pressed!')},
-          {text: 'YES', onPress: () => BackAndroid.exitApp()},
+          {text: 'NÃO', onPress: () => console.log('Cancelar!')},
+          {text: 'SIM', onPress: () => BackAndroid.exitApp()},
         ]
       )
       return true;
